@@ -2,6 +2,8 @@ sir=[0,1]
 i=0
 numar=int(input("Introdu numarul:"))
 def fib(numar,i):
+    if(numar==1):
+        del(sir[1])
     if(numar<1+2):
         return
     else:
